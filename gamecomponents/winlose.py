@@ -14,8 +14,8 @@ def winorlose(status, player, playerlives, computerlives):
 
         elif Choice == "y" or Choice == "Y":
             print("you chose YES!!! u r good to gooo!!!!!!!!!!!!!....")
-            playerlives = 2
-            computerlives = 2
+            playerlives = 5
+            computerlives = 5
             player = False    
             
             print("***")

@@ -7,5 +7,5 @@ choices = ["rock", "paper", "scissors"]
 #random function to choose a weapon for computer
 computer = choices[randint(0, 2)]
 
-playerlives =1 
-computerlives =1
+playerlives =5
+computerlives =5
