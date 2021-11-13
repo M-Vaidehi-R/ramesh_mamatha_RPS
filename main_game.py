@@ -2,7 +2,7 @@ from gamecomponents import winlose, gameVARS, criteria
 
 # gamecomponents is a folder where winlose, gameVARS, criteria is stored
 
-print("CURRENT SCORE:" + str(gameVARS.playerlives))   #to show the current score before starting
+print("CURRENT SCORE: " + str(gameVARS.playerlives))   #to show the current score before starting
 
 # setting up a while loop, to run the game continuosly
 while gameVARS.player is False:
