@@ -22,5 +22,7 @@ Built with [Python 3](https://www.python.org/)
 
 Enjoy!
 
+### Author 
+[Mamatha Ramesh](https://github.com/M-Vaidehi-R)
 ### License 
 MIT
