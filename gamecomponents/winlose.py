@@ -13,7 +13,7 @@ def winorlose(status, player, playerlives, computerlives):
             #user input "n", so exiting from the loop (game)
 
         elif Choice == "y" or Choice == "Y":
-            print("you chose YES!!! u r good to gooo!!!!!!!!!!!!!....")
+            print("you chose YES!!! u r good to gooo!!!!....")
             playerlives = 5
             computerlives = 5
             player = False    
