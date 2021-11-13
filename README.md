@@ -1,4 +1,4 @@
-##  <ins>**Rock Paper Scissors - Python text-based take on a classic!**</ins>
+##  **Rock Paper Scissors - Python text-based take on a classic!**
 
 Pick your weapon and play against the computer - you'll only get a virtual sting if you lose!
 
