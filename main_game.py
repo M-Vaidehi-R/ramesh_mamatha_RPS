@@ -8,15 +8,20 @@ print("CURRENT SCORE:" + str(gameVARS.playerlives))   #to show the current score
 while gameVARS.player is False:
     # asking player to choose rock, paper, scissors
     gameVARS.player = input("Choose your weapon: rock, paper or scissors: ")
+    print("**______**")
     print("player chose: " + gameVARS.player)
     print("computer chose: " + gameVARS.computer)
+    print("**_______**")
 
     #calling function check from criteria and passing the return value to computerlives and playerlives 
   
     gameVARS.playerlives, gameVARS.computerlives =  criteria.check(gameVARS.player, gameVARS.computer,  gameVARS.computerlives, gameVARS.playerlives)      
 
-    print("player life count: " + str(gameVARS.playerlives))
-    print("computer life count: " + str(gameVARS.computerlives))
+    print("***")
+    print("player life count: " + str(gameVARS.playerlives) + "!")
+    print("*")
+    print("computer life count: " + str(gameVARS.computerlives) + "!")
+    print("***")
 
     if gameVARS.playerlives == 0:
         #call winorlose here
